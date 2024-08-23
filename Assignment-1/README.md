@@ -4,7 +4,7 @@ This README provides an overview of Assignment-1, which includes the files `form
 
 ## form.html
 
-The `form.html` file is a part of this assignment and contains a replica form on `https://portal.altschoolafrica.com/auth/create-account` that allows users to input their information. It is designed to collect data from the user and can be used for various purposes.
+The `form.html` file is a part of this assignment and contains a replica form on [https://portal.altschoolafrica.com/auth/create-account](https://portal.altschoolafrica.com/auth/create-account) that allows users to input their information. It is designed to collect data from the user and can be used for various  that allows users to input their information. 
 
 ## index.html
 
