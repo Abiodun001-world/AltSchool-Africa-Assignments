@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/media.css" />
+    <title>About Me</title>
+</head>
+<body>
+    <h1>About Me</h1>
+    <p>I am Abiodun, an aspiring software developer inspired by nature, people around me, my communitites and I also read a lot with a passion for creating innovative software solutions and exploring Mars.</p>
+
+    <!-- Picture element for responsive images -->
+    <picture>
+        <source srcset="./assests/images/abiodun.jpeg" media="(min-width: 1024px)">
+        <source srcset="./assests/images/abiodun.jpeg" media="(min-width: 600px)">
+        <source srcset="./assests/images/abiodun.jpeg" media="(max-width: 599px)">
+        <img src="./assests/images/abiodun.jpeg" width="300" height="300" alt="Picture of me">
+    </picture>
+
+    <!-- Audio element -->
+    <audio controls>
+        <source src="./assests/audio/Burna-Boy-Way-Too-Big.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+      </audio>
+
+    <!-- Video element -->
+    <video width="320" height="240" controls>
+        <source src="./assests/videos/VID-20240719-WA0005.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+    <!-- Embedded content -->
+     <iframe width="560" height="315" src="https://www.loom.com/embed/0b4c9913b7f5419f956acb3a856fb9ec?sid=b6d55edf-3060-4860-8706-3f8b1e2c63d1
+    "title="Loom Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- SVG image -->
+    <object data="./assests/images/abiodun.jpeg" width="300" height="300"></object>
+</object>
+</body>
+</html>

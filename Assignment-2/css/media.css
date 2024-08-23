@@ -1,0 +1,61 @@
+/* media.css */
+
+/* <h1> element */
+h1 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* <p> element */
+p {
+    color: #666;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* <picture> element */
+picture {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*<img> element inside <picture> */
+picture img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/* <audio> element */
+audio {
+    display: block;
+    margin: 20px auto;
+}
+
+/* <video> element */
+video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* <iframe> element */
+iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* <object> element */
+object {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
